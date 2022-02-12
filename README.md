@@ -1,2 +1,2 @@
-# assessment-
+# assessment
 あなたのいいところ診断ゲーム 
