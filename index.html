@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>診断プログラム</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="c-section">
+		<h1 class="c-heading">あなたのいいところは?</h1>
+		<p class="c-section_lead">診断したい名前を入れて下さい</p>
+		<div class="c-form c-section_block">
+			<input type="text" name="name" maxlength="20" id="app-name" class="c-form_input">
+			<button type="" id="app-submit" class="c-form_button">診断する</button>
+		</div>
+		<div class="c-section_block">
+			<div id="app-result" class="c-section_lead"></div>
+			<div id="app-tweet" class="c-tweet">
+<!--
+				<a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="診断結果の文章" data-show-count="false">Tweet #あなたのいいところ</a>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+-->
+			</div>
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+</html>
